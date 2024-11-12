@@ -126,7 +126,7 @@ void printList(position head)
 	printf("\n");
 }
 
-void addList(position headA, position headB, position headC)
+void addLists(position headA, position headB, position headC)
 {
 	position temp1 = headA->next;
 	position temp2 = headB->next;
